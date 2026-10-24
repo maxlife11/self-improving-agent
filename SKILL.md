@@ -25,6 +25,72 @@ Log learnings and errors to markdown files for continuous improvement. Coding ag
 | Tool gotchas | Promote to `TOOLS.md` (OpenClaw workspace) |
 | Behavioral patterns | Promote to `SOUL.md` (OpenClaw workspace) |
 
+## ReForge Principles (Digital Factory Mindset)
+
+These principles are derived from **The ReForge Podcast** (31 episodes on physical manufacturing revival) and applied to **digital agent factories**. They guide how we build, deploy, and scale AI agents.
+
+### Core Principles
+
+| Principle | Description | Digital Factory Application |
+|-----------|-------------|---------------------------|
+| **Customer-Funded** | Prove value with real users before scaling infrastructure | Internal adoption first, revenue validation before external scaling |
+| **Augmentation > Replacement** | AI augments human capability, doesn't replace it | Agents assist, not substitute; human-in-the-loop for high-stakes decisions |
+| **Critical Path First** | Identify and secure the bottleneck before building anything else | Compute/data/talent bottlenecks identified before feature development |
+| **Digital Twin Before Physical** | Simulate before deploying to production | Sandbox/testing environment for agent testing before production |
+| **Verification Required** | LLMs lie constantly — verification is mandatory | Challenge + Audit Agents enforce quality before delivery |
+| **Self-Operating Fleet** | No vendor lock-in; own your infrastructure | Self-hosted agents, open architecture, no RaaS dependency |
+| **Every Team Needs an Agent** | Distributed manufacturing = distributed agents | Specialized agents per domain, not one-size-fits-all |
+| **Knowledge Retention** | 15-year engineers retiring = knowledge loss | Obsidian memory + Board agents = institutional knowledge capture |
+| **Zero Marginal Cost** | More agents = more value at $0 incremental cost | Compounding revenue assets, not linear scaling costs |
+| **Impact Measurement** | Measurable public benefit, not reputation washing | Audit Agent tracks users served, tasks automated, community benefit |
+
+### Detection Triggers
+
+Log these situations to `.learnings/LEARNINGS.md` with category `reforge_principle`:
+
+- **Customer-Funded Validation**: When revenue validates the need before scaling
+- **Augmentation Discovery**: When AI augments rather than replaces human capability
+- **Critical Path Identification**: When a bottleneck is identified that blocks scaling
+- **Digital Twin Insight**: When simulation reveals production issues
+- **LLM Hallucination**: When AI produces incorrect/unverifiable output
+- **Self-Operation Success**: When self-hosted infrastructure proves superior to vendor lock-in
+- **Knowledge Capture Win**: When institutional knowledge is preserved via agent memory
+- **Zero-Marginal-Cost Validation**: When additional users cost near-zero incremental compute
+
+### Promotion Targets
+
+When ReForge principles prove broadly applicable across multiple projects, promote to:
+
+| Learning Type | Promote To | Example |
+|---------------|------------|---------|
+| **Customer-Funded** | `CLAUDE.md` | "Validate with internal users before scaling infrastructure" |
+| **Augmentation** | `SOUL.md` | "Augment humans, don't replace them" |
+| **Critical Path** | `AGENTS.md` | "Identify compute/data bottlenecks before building features" |
+| **Digital Twin** | `AGENTS.md` | "Test agents in sandbox before production deployment" |
+| **Verification** | `TOOLS.md` | "Challenge + Audit Agents required for production outputs" |
+| **Self-Operation** | `TOOLS.md` | "Self-hosted agents preferred over vendor lock-in" |
+| **Knowledge Retention** | `CLAUDE.md` | "Capture institutional knowledge via agent memory" |
+| **Zero Marginal Cost** | `CLAUDE.md` | "Scale without proportional cost increase" |
+| **Impact Measurement** | `CLAUDE.md` | "Track users served, tasks automated, community benefit" |
+
+### ReForge Pattern Keys
+
+Use these stable pattern keys for recurring-pattern tracking:
+
+| Pattern-Key | Description |
+|------------|-------------|
+| `reforge.customer_funded` | Customer-funded deployment validation |
+| `reforge.augmentation` | AI augments human capability |
+| `reforge.critical_path` | Bottleneck identification and remediation |
+| `reforge.digital_twin` | Simulation-before-production pattern |
+| `reforge.verification` | Mandatory verification before delivery |
+| `reforge.self_operation` | Self-hosted infrastructure over vendor lock-in |
+| `reforge.knowledge_retention` | Institutional knowledge capture |
+| `reforge.zero_marginal_cost` | Scalable economics without proportional cost |
+| `reforge.impact_measurement` | Measurable public benefit tracking |
+
+---
+
 ## OpenClaw Setup (Recommended)
 
 OpenClaw is the primary platform for this skill. It uses workspace-based prompt injection with automatic skill loading.
