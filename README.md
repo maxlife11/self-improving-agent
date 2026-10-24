@@ -22,6 +22,18 @@ This repository documents a complete agent architecture combining **OpenMinis** 
 4. **Hybrid Computing**: Combine offline-local benefits with cloud scalability
 5. **Continuous Learning**: Agents accumulate knowledge and improve over time
 6. **Multi-Channel Access**: Single interface for web, mobile, and messaging platforms
+7. **Impact Measurement**: Explicit tracking of users served, tasks automated, and community benefit; reported quarterly via Audit Agent
+
+### Impact as a Core Pillar
+
+The AI Agent Ecosystem embeds **explicit impact measurement** as a foundational principle, aligned with the vision that AGI must "be built out so everybody can feel it." Impact is tracked through:
+
+- **Board of Directors Governance**: The Audit, Challenge, and Quality agents enforce measurable standards, not just quality but *demonstrable benefit*
+- **Economic Model**: Zero-marginal-cost automation (Grok Bot economics) enables scalable impact without proportional cost increase
+- **Continuous Improvement Loop**: Self-Improvement Skill logs learnings and promotes them to CLAUDE.md, AGENTS.md, and .github/copilot-instructions.md, creating a feedback loop that measures and improves impact over time
+- **Quarterly Impact Reports**: Audit Agent generates compliance and impact reports, ensuring transparency and accountability
+
+See [IMPACT.md](IMPACT.md) for the full impact measurement framework.
 
 ## Technology Stack
 

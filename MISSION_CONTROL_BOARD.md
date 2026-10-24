@@ -20,6 +20,19 @@ This architecture transforms a collection of AI agents into a **cohesive, intell
 - Adaptive resource allocation
 - Proactive problem detection
 - Strategic evolution based on performance data
+- **Explicit impact measurement** — tracking users served, tasks automated, and community benefit as a core governance pillar
+
+### Impact as a Core Pillar
+
+The Board of Directors embeds **explicit impact measurement** as a foundational principle, aligned with the vision that AGI must "be built out so everybody can feel it." Impact is tracked through:
+
+- **Audit Agent**: Generates quarterly impact reports measuring users served, tasks automated, and community benefit
+- **Quality Agent**: Validates outputs against quality standards *and* ensures they deliver demonstrable value
+- **Optimize Agent**: Tracks performance metrics including impact-related KPIs (not just latency/cost)
+- **Challenge Agent**: Adversarially tests outputs for both accuracy *and* real-world utility
+- **Scale Agent**: Manages fleet to maximize impact reach while minimizing resource waste
+
+See [IMPACT.md](IMPACT.md) for the full impact measurement framework.
 
 ## Board Structure & Roles
 
